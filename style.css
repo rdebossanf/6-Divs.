@@ -1,0 +1,22 @@
+*{
+    flex-wrap: wrap;
+}
+
+div{
+    border: 1px solid #000;
+    margin: 5px;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 100px;
+    max-height: 100px;
+}
+.dv1{
+    display: block;
+}
+section{
+    display: flex;
+}
+.dv4,.dv5,.dv6{
+    display: flex;
+    float: left;
+}
